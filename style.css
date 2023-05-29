@@ -56,6 +56,9 @@ section::before {
     margin-top: 24px;
 }
 
+.about-exp-item-detail{
+    display: none;
+}
 .about-exp-item-header {
     display: flex;
     align-items: center;
