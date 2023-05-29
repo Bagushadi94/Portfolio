@@ -125,6 +125,21 @@ section::before {
     content: 'Fotografi Project';
 }
 
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 64px 32px;
+}
+
+form label{
+    font-weight: 700;
+}
+
 @keyframes upDown{
 
     0% {
