@@ -31,6 +31,10 @@ section::before {
     color: white;
 }
 
+.home img {
+    width: 100%;
+}
+
 .home h1 {
     font-size: 68px;
 }
@@ -136,9 +140,41 @@ section::before {
     padding: 64px 32px;
 }
 
+.contact img{
+
+    width: 19px;
+    position: absolute;
+
+}
+
+.contact .sosmed {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.contact .sosmed p{
+    position: relative;
+    left: 25px;
+}
+
 form label{
     font-weight: 700;
 }
+
+@media only screen and (max-width: 768px){
+    .home img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    section::before {
+        left: -30px;
+        font-size: 35px;
+    }
+}
+
 
 @keyframes upDown{
 
