@@ -170,8 +170,8 @@ form label{
 
 @media only screen and (max-width: 576px){
     section::before {
-        left: -30px;
-        font-size: 35px;
+        left: 15px;
+        font-size: 55px;
     }
 }
 
